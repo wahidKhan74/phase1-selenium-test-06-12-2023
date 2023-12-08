@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Radio Button| Check Box | Select Dropdown </title>
+</head>
+<body>
+	<form action="form1">
+		<fieldset>
+			<p>Please select your gender :</p>
+
+			<input type="radio" id="male" name="gender" value="male"> 
+			<label for="male">Male</label> 
+			
+			<input type="radio" id="female" name="gender" value="female"> 
+			<label for="female">Female</label>
+
+			<input type="radio" id="other" name="gender" value="other">
+			<label for="other">Other</label>
+		</fieldset>
+	</form>
+
+	<form action="form2">
+		<fieldset>
+			<p>Please select your Vehicle </p>
+
+			<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> 
+			<label for="vehicle1"> I have a Bike</label> 
+			
+			<input type="checkbox" id="vehicle2" name="vehicle2" value="Car" checked> 
+			<label for="vehicle2"> I have a Car</label>
+
+			<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+			<label for="vehicle3">I have a Boat</label>
+		</fieldset>
+	</form>
+	
+	<form action="form3">
+		<fieldset>
+			<p>Please select your Vehicle </p>
+			<select name="vehicle" id="vehicle">
+				<option value="bike"> Bike </option>
+				<option value="car"> Car </option>
+				<option value="train"> Train </option>
+				<option value="airplane"> Airplane </option>			
+			</select>
+			
+		</fieldset>
+	</form>
+	
+	<form action="form3">
+		<fieldset>
+			<p>Please select your date of birth and time </p>
+
+			<input type="datetime-local" id="bdatetime" name="bdatetime" > 
+			
+		</fieldset>
+	</form>
+
+</body>
+</html>

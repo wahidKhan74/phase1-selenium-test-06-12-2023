@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Alert , Confirmation & Prompt Popups</title>
+</head>
+<body>
+
+	<p>Click the button to display a alert box
+	<p>
+		<button onclick="openAlert()">Try it Alert</button>
+	<p>Click the button to display a confirmation box
+	<p>
+		<button onclick="openConfirmation()">Try it Confirm</button>
+	<p>Click the button to display a prompt box
+	<p>
+		<button onclick="openPrompt()">Try it Prompt</button>
+
+		<script>
+			function openConfirmation() {
+				confirm("Please confirm the action is right ??");
+			}
+
+			function openAlert() {
+				alert("Do you really want to proceed ??");
+			}
+
+			function openPrompt() {
+				prompt("Please enter your name.", "Harry Potter");
+			}
+		</script>
+</body>
+</html>
